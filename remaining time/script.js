@@ -40,13 +40,7 @@ function nekadargecti() {
   gecmisdakikaE.innerHTML = kontrol(gecmisdakika);
   gecmissaniyeE.innerHTML = kontrol(gecmissaniye);
 }
-function degerlendirme() {
 
-  gyil++;
-  yil++;
-  yeniyil = "1 Jan " + yil;
-  gecmis = "1 Jan " + gyil;
-}
 
 function kontrol(kontrol) {
   return kontrol < 10 ? `0${kontrol}` : kontrol;
